@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COVID-19 Phases Information</title>
+  <link rel="stylesheet" href="covid-phases.css">
+</head>
+<body>
+  <div class="container">
+    <h1>COVID-19 PHASES INFORMATION</h1>
+    <div class="phases">
+      <div class="phase" onclick="showPhase('phase1')">
+        <img src="Phase-1.png" alt="Phase 1" class="phase-img">
+        <p>Phase 1</p>
+      </div>
+      <div class="phase" onclick="showPhase('phase2')">
+        <img src="Phase 2 Icon.jpg" alt="Phase 2" class="phase-img">
+        <p>Phase 2</p>
+      </div>
+      <div class="Next" onclick="showPhase('Next')">
+        
+        
+        
+
+        <a href="file:///F:/Git/Final%20Year%20Project/next.html" target="_blank">
+            <img src="images.png" alt="Image 1" style="width: 200px; height: auto;">
+          </a>
+        
+      </div>
+    </div>
+    
+    <!-- Phase information will appear here when clicked -->
+    <div class="phase-info" id="phase-info">
+      <!-- Content will be dynamically updated here -->
+    </div>
+  </div>
+
+  <script src="covid-phases.js"></script>
+</body>
+</html>
